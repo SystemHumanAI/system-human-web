@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTEM HUMAN // Autonomous AI Systems & Operational Infrastructure</title>
+    <meta name="description" content="Deterministic, document-grounded AI pipelines and autonomous operational infrastructure for modern enterprises.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            black: '#07090e',
+                            surface: '#0d1117',
+                            card: '#161b22',
+                            border: '#21262d',
+                            accent: '#58a6ff',
+                            accentMuted: '#1f6feb',
+                            emerald: '#2ea043',
+                            danger: '#f85149',
+                            textMuted: '#8b949e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::selection { background-color: #58a6ff; color: #07090e; }
+        .grid-bg {
+            background-size: 32px 32px;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="bg-brand-black text-slate-100 font-sans antialiased selection:bg-brand-accent selection:text-brand-black">
+
+    <!-- NAVIGATION BAR -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-brand-black/80 border-b border-brand-border">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-2.5 h-2.5 rounded-full bg-brand-emerald animate-pulse"></div>
+                <span class="font-mono font-bold tracking-tight text-white text-sm sm:text-base">SYSTEM HUMAN // OS</span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-xs font-mono text-brand-textMuted uppercase tracking-wider">
+                <a href="#thesis" class="hover:text-white transition">The Thesis</a>
+                <a href="#engines" class="hover:text-white transition">Engines</a>
+                <a href="#architecture" class="hover:text-white transition">Architecture</a>
+                <a href="#pricing" class="hover:text-white transition">Engagements</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="https://portal.systemhuman.co.uk" target="_blank" class="font-mono text-xs px-3.5 py-1.5 rounded border border-brand-border bg-brand-card hover:border-brand-accent text-slate-200 transition flex items-center gap-1.5">
+                    <span>Live Portal</span>
+                    <span class="text-brand-accent">↗</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-24 pb-20 md:pt-32 md:pb-28 border-b border-brand-border grid-bg overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-brand-border bg-brand-card text-brand-accent font-mono text-xs mb-8">
+                <span class="w-2 h-2 rounded-full bg-brand-accent"></span>
+                AUTONOMOUS COGNITIVE INFRASTRUCTURE // REV 2026.4
+            </div>
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl leading-[1.08] mb-6">
+                Replace operational friction with deterministic AI systems.
+            </h1>
+            <p class="text-lg sm:text-xl text-brand-textMuted max-w-2xl font-normal leading-relaxed mb-10">
+                We engineer bespoke, document-grounded AI pipelines that audit invoices, qualify commercial pipeline, enforce internal compliance, and triage mission-critical incidents without human bottlenecking.
+            </p>
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                <a href="https://portal.systemhuman.co.uk" target="_blank" class="font-mono text-sm font-semibold px-6 py-3.5 rounded bg-brand-accent hover:bg-white text-brand-black transition text-center flex items-center justify-center gap-2">
+                    <span>Launch Operations Portal</span>
+                    <span>→</span>
+                </a>
+                <a href="#contact" class="font-mono text-sm px-6 py-3.5 rounded border border-brand-border bg-brand-surface hover:border-slate-400 text-slate-300 transition text-center">
+                    Book Architecture Audit
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE OPERATIONAL THESIS -->
+    <section id="thesis" class="py-20 border-b border-brand-border bg-brand-surface">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-5">
+                    <span class="font-mono text-xs text-brand-accent font-bold uppercase tracking-wider">01 // THE THESIS</span>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-white mt-3 tracking-tight">The Chatbot Era is Dead. Deterministic Pipelines Win.</h2>
+                </div>
+                <div class="lg:col-span-7 space-y-6 text-slate-300 leading-relaxed">
+                    <p>
+                        Most enterprise AI initiatives fail because they hand employees open-ended chat boxes that produce unverified hallucinations, lack audit trails, and break under dirty data.
+                    </p>
+                    <p>
+                        <strong class="text-white">SYSTEM HUMAN</strong> builds structured cognitive pipelines. Every input is cross-examined against ground-truth contracts, internal SOPs, and deterministic validation schemas—producing auditable verdicts with zero fluff.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE 5 CORE ENGINES SHOWCASE -->
+    <section id="engines" class="py-24 border-b border-brand-border">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div>
+                    <span class="font-mono text-xs text-brand-accent font-bold uppercase tracking-wider">02 // PRODUCTION SUITE</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 tracking-tight">Five Autonomous Infrastructure Engines</h2>
+                </div>
+                <a href="https://portal.systemhuman.co.uk" target="_blank" class="font-mono text-xs text-brand-accent hover:underline inline-flex items-center gap-1">
+                    <span>Test all 5 in the Live Portal</span>
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- ENGINE 1 -->
+                <div class="p-6 rounded-lg border border-brand-border bg-brand-card hover:border-slate-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="font-mono text-xs text-brand-accent mb-2">ENGINE // 01</div>
+                        <h3 class="text-lg font-bold text-white mb-2">Vendor Invoice & Contract Auditor</h3>
+                        <p class="text-sm text-brand-textMuted leading-relaxed mb-6">
+                            Cross-references raw multi-page supplier invoices against governing MSAs to isolate hidden surcharges, price creep, and unapplied volume rebates.
+                        </p>
+                    </div>
+                    <div class="font-mono text-xs text-brand-emerald flex items-center gap-1.5">
+                        <span>●</span> Active Benchmark: £2,900 AP Leak Recovered
+                    </div>
+                </div>
+
+                <!-- ENGINE 2 -->
+                <div class="p-6 rounded-lg border border-brand-border bg-brand-card hover:border-slate-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="font-mono text-xs text-brand-accent mb-2">ENGINE // 02</div>
+                        <h3 class="text-lg font-bold text-white mb-2">B2B Inbound Lead Qualifier</h3>
+                        <p class="text-sm text-brand-textMuted leading-relaxed mb-6">
+                            Extracts operational pain, maps customer headcount and budget bands, calculates commercial fit score (0-100), and drafts high-context executive outreach.
+                        </p>
+                    </div>
+                    <div class="font-mono text-xs text-brand-emerald flex items-center gap-1.5">
+                        <span>●</span> Active Benchmark: 88/100 Tier 1 Fit Scoring
+                    </div>
+                </div>
+
+                <!-- ENGINE 3 -->
+                <div class="p-6 rounded-lg border border-brand-border bg-brand-card hover:border-slate-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="font-mono text-xs text-brand-accent mb-2">ENGINE // 03</div>
+                        <h3 class="text-lg font-bold text-white mb-2">Discovery & SOW Extractor</h3>
+                        <p class="text-sm text-brand-textMuted leading-relaxed mb-6">
+                            Ingests raw, messy sales transcripts and generates complete, executive-ready Statements of Work with milestones, stack architecture, and guardrails.
+                        </p>
+                    </div>
+                    <div class="font-mono text-xs text-brand-emerald flex items-center gap-1.5">
+                        <span>●</span> Active Benchmark: 12-Day Turnaround $\rightarrow$ Instant
+                    </div>
+                </div>
+
+                <!-- ENGINE 4 -->
+                <div class="p-6 rounded-lg border border-brand-border bg-brand-card hover:border-slate-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="font-mono text-xs text-brand-accent mb-2">ENGINE // 04</div>
+                        <h3 class="text-lg font-bold text-white mb-2">Policy & Compliance Validator</h3>
+                        <p class="text-sm text-brand-textMuted leading-relaxed mb-6">
+                            Clause-grounded RAG engine that cross-examines employee inquiries, expense claims, and vendor disputes against internal SOP documents.
+                        </p>
+                    </div>
+                    <div class="font-mono text-xs text-brand-emerald flex items-center gap-1.5">
+                        <span>●</span> Active Benchmark: Multi-Breach Citation Detection
+                    </div>
+                </div>
+
+                <!-- ENGINE 5 -->
+                <div class="p-6 rounded-lg border border-brand-border bg-brand-card hover:border-slate-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="font-mono text-xs text-brand-accent mb-2">ENGINE // 05</div>
+                        <h3 class="text-lg font-bold text-white mb-2">Incident & Escalation Triage</h3>
+                        <p class="text-sm text-brand-textMuted leading-relaxed mb-6">
+                            Ingests high-friction customer complaints and outages, scores ARR at risk, sets internal engineering SLAs, and drafts executive de-escalation responses.
+                        </p>
+                    </div>
+                    <div class="font-mono text-xs text-brand-emerald flex items-center gap-1.5">
+                        <span>●</span> Active Benchmark: P1 £26.4k ARR Churn Defense
+                    </div>
+                </div>
+
+                <!-- CUSTOM ENGINE CALLOUT -->
+                <div class="p-6 rounded-lg border border-dashed border-brand-accent/40 bg-brand-surface flex flex-col justify-between">
+                    <div>
+                        <div class="font-mono text-xs text-brand-accent mb-2">BESPOKE // 06</div>
+                        <h3 class="text-lg font-bold text-white mb-2">Your Custom Pipeline</h3>
+                        <p class="text-sm text-brand-textMuted leading-relaxed mb-6">
+                            Have unique logistics workflows, proprietary ERPs, or compliance handoffs? We engineer custom autonomous pipelines directly onto your tech stack.
+                        </p>
+                    </div>
+                    <a href="#contact" class="font-mono text-xs text-white hover:text-brand-accent transition inline-flex items-center gap-1">
+                        <span>Request Custom Architecture</span>
+                        <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARCHITECTURE & STACK -->
+    <section id="architecture" class="py-20 border-b border-brand-border bg-brand-surface font-mono">
+        <div class="max-w-7xl mx-auto px-6">
+            <span class="text-xs text-brand-accent font-bold uppercase tracking-wider">03 // STACK & RELIABILITY</span>
+            <h2 class="text-2xl sm:text-3xl font-bold font-sans text-white mt-2 mb-8 tracking-tight">Engineered for Deterministic Precision</h2>
+
+            <div class="p-6 rounded-lg bg-brand-black border border-brand-border text-xs sm:text-sm text-slate-300 space-y-4 overflow-x-auto">
+                <div class="text-brand-textMuted">// SYSTEM HUMAN ARCHITECTURAL SPECIFICATIONS</div>
+                <div><span class="text-brand-accent">Inference Core:</span> Gemini 2.5 Flash via native Google GenAI SDK</div>
+                <div><span class="text-brand-accent">Orchestration:</span> Langflow / LangChain Deterministic Nodes</div>
+                <div><span class="text-brand-accent">Compute Layer:</span> Docker Containerized Microservices on Railway Edge</div>
+                <div><span class="text-brand-accent">Grounding Model:</span> Zero-Temperature Exact Clause RAG & OCR Extraction</div>
+                <div><span class="text-brand-accent">SLA & Latency:</span> Sub-3s End-to-End Pipeline Execution</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENGAGEMENT & PRICING -->
+    <section id="pricing" class="py-24 border-b border-brand-border">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="font-mono text-xs text-brand-accent font-bold uppercase tracking-wider">04 // COMMERCIAL ENGAGEMENTS</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 tracking-tight">Structured Engagements. Guaranteed Delivery.</h2>
+                <p class="text-brand-textMuted mt-4 text-sm sm:text-base">Zero open-ended billable hours. We deploy production systems under fixed-scope deliverables.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- TIER 1 -->
+                <div class="p-8 rounded-lg border border-brand-border bg-brand-card flex flex-col justify-between">
+                    <div>
+                        <div class="font-mono text-xs text-slate-400 mb-2">SPRINT BUILD</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Single Agent Pipeline</h3>
+                        <div class="font-mono text-3xl font-extrabold text-white my-4">£3,500 <span class="text-xs font-normal text-brand-textMuted">fixed</span></div>
+                        <p class="text-xs text-brand-textMuted mb-6">Targeted automation for one high-friction operational bottleneck.</p>
+                        <ul class="text-xs text-slate-300 space-y-3 font-mono border-t border-brand-border pt-6">
+                            <li>✓ 1 Bespoke Agent Engine</li>
+                            <li>✓ Document Grounding & Prompt Chain</li>
+                            <li>✓ API / Webhook Integration</li>
+                            <li>✓ 14-Day Delivery & Handover</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="mt-8 block text-center font-mono text-xs px-4 py-3 rounded border border-brand-border bg-brand-surface hover:border-slate-300 text-white transition">Select Sprint</a>
+                </div>
+
+                <!-- TIER 2 -->
+                <div class="p-8 rounded-lg border-2 border-brand-accent bg-brand-card relative flex flex-col justify-between shadow-2xl shadow-brand-accent/10">
+                    <div class="absolute -top-3 right-6 font-mono text-[10px] font-bold px-2 py-0.5 rounded bg-brand-accent text-brand-black uppercase">Most Selected</div>
+                    <div>
+                        <div class="font-mono text-xs text-brand-accent mb-2">OPERATIONAL SUITE</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Multi-Pipeline OS</h3>
+                        <div class="font-mono text-3xl font-extrabold text-white my-4">£8,500 <span class="text-xs font-normal text-brand-textMuted">fixed</span></div>
+                        <p class="text-xs text-brand-textMuted mb-6">End-to-end cognitive infrastructure transforming entire departments.</p>
+                        <ul class="text-xs text-slate-300 space-y-3 font-mono border-t border-brand-border pt-6">
+                            <li>✓ Up to 4 Coordinated Agent Engines</li>
+                            <li>✓ Bespoke Branded Web Application Portal</li>
+                            <li>✓ Multi-Format OCR & Context Grounding</li>
+                            <li>✓ Full Railway Cloud Architecture Setup</li>
+                            <li>✓ 30-Day Post-Launch SLA Warranty</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="mt-8 block text-center font-mono text-xs px-4 py-3 rounded bg-brand-accent hover:bg-white text-brand-black font-semibold transition">Deploy Full Suite</a>
+                </div>
+
+                <!-- TIER 3 -->
+                <div class="p-8 rounded-lg border border-brand-border bg-brand-card flex flex-col justify-between">
+                    <div>
+                        <div class="font-mono text-xs text-slate-400 mb-2">MANAGED INFRASTRUCTURE</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Retained AI Architect</h3>
+                        <div class="font-mono text-3xl font-extrabold text-white my-4">£2,500 <span class="text-xs font-normal text-brand-textMuted">/ month</span></div>
+                        <p class="text-xs text-brand-textMuted mb-6">Continuous optimization, new feature builds, and model maintenance.</p>
+                        <ul class="text-xs text-slate-300 space-y-3 font-mono border-t border-brand-border pt-6">
+                            <li>✓ Continuous Pipeline Optimization</li>
+                            <li>✓ 1 New Custom Engine Per Month</li>
+                            <li>✓ Model Updates & Prompt Auditing</li>
+                            <li>✓ Direct Slack / Teams Incident Support</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="mt-8 block text-center font-mono text-xs px-4 py-3 rounded border border-brand-border bg-brand-surface hover:border-slate-300 text-white transition">Retain Architect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOUNDER & CONTACT SECTION -->
+    <section id="contact" class="py-24 bg-brand-surface">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="w-16 h-16 rounded-full bg-brand-card border border-brand-border mx-auto flex items-center justify-center font-mono text-lg font-bold text-brand-accent mb-6">
+                JL
+            </div>
+            <h2 class="text-3xl font-extrabold text-white tracking-tight mb-4">Direct Architectural Consultation</h2>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-8 max-w-xl mx-auto">
+                Led by <strong class="text-white">James Lewis</strong>, Founder at SYSTEM HUMAN. Every engagement begins with a 30-minute operational friction audit to calculate your exact ROI.
+            </p>
+            <div class="p-6 rounded-lg bg-brand-black border border-brand-border inline-flex flex-col sm:flex-row items-center gap-4 text-sm font-mono">
+                <span class="text-brand-textMuted">Direct Inquiries:</span>
+                <a href="mailto:james@systemhuman.co.uk" class="text-brand-accent hover:underline font-bold">james@systemhuman.co.uk</a>
+                <span class="text-brand-border hidden sm:inline">|</span>
+                <a href="https://portal.systemhuman.co.uk" target="_blank" class="text-white hover:text-brand-accent transition">portal.systemhuman.co.uk ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 border-t border-brand-border bg-brand-black font-mono text-xs text-brand-textMuted">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>© 2026 SYSTEM HUMAN. All rights reserved. Registered in the UK.</div>
+            <div class="flex items-center space-x-6">
+                <a href="https://github.com/SystemHumanAI" target="_blank" class="hover:text-white transition">GitHub</a>
+                <a href="https://portal.systemhuman.co.uk" target="_blank" class="hover:text-white transition">Portal</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

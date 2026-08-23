@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "System Human",
+  "short_name": "SystemHuman",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
